@@ -15,7 +15,8 @@ namespace HelloTwitter
             Console.WriteLine("Tweeting...");
 
             await twitterCtx.TweetAsync(
-                "just setting up my #LinqToTwitter by @JoeMayo: " +
+                "just setting up my #LinqToTwitter " +
+                "by @JoeMayo: http://bit.ly/GetDotNet6" +
                 "\n\n#dotnet");
 
             Console.WriteLine("Tweet Sent!");
